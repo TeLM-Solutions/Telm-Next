@@ -1,0 +1,36 @@
+.card-mobile-items {
+  box-shadow: none;
+  background: none;
+
+  .page-heading-bar {
+    background: #fff;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.20);
+  }
+}
+
+.mobile-business {
+  .MuiAvatar-root {
+    transition: all ease-in 0.3s;
+  }
+}
+
+.business-small {
+  .MuiAvatar-root {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.fixed-bottom-actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 8;
+  box-shadow: 0px -2px 4px -1px rgba(0, 0, 0, 0.20);
+
+  > button {
+    flex: 1
+  }
+}
